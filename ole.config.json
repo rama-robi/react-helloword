@@ -12,7 +12,7 @@
          "ref"  : "origin/master",
          "repo" : "https://github.com/rama-robi/react-helloword.git",
          "path" : "/root/react-helloword",
-         "post-deploy"  : "cd helloword && npm install && pm2 reload ole.config.json --env production"
+         "post-deploy"  : "cd helloword && npm install && pm2 reload all --env production"
      }
  }
 }
