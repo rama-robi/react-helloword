@@ -10,7 +10,7 @@ import './Home.css'
 const Home = () => {
   return (
     <Fragment>
-      <h1>Test 1</h1>
+      <h1>Hello Bang</h1>
       <ul>
         <li><a className="active" href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
