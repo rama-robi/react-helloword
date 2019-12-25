@@ -1,6 +1,6 @@
 {
  "apps": [{
-     "name" : "ole",
+     "name" : "app",
      "cwd" : "/root/react-helloword/helloword",
      "script" : "npm",
      "args" : "start"
