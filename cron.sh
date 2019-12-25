@@ -1,2 +1,2 @@
 #!bin/bash
-git fetch && git pull
+cd /root/react-helloword && git fetch && git pull
