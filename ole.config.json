@@ -1,0 +1,18 @@
+{
+ "apps": [{
+     "name" : "ole",
+     "cwd" : "/root/react-helloword/helloword",
+     "script" : "npm",
+     "args" : "start"
+    }],
+ "deploy" : {
+     "production" : {
+         "user" : "root",
+         "host" : ["3.84.39.82"],
+         "ref"  : "origin/master",
+         "repo" : "https://github.com/rama-robi/react-helloword.git",
+         "path" : "/root/react-helloword",
+         "post-deploy"  : "cd helloword && npm install && pm2 reload ole.config.json --env production"
+     }
+ }
+}
