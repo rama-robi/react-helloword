@@ -18,7 +18,7 @@ const Home = () => {
         <li ><a href="#about">About</a></li>
       </ul>
       <Container fixed>
-        <Typography component="div" style={{backgroundColor: 'red', width:'100%', height: '50vh' }} />
+        <Typography component="div" style={{backgroundColor: 'gray', width:'100%', height: '50vh' }} />
       </Container>
     </Fragment>
 
