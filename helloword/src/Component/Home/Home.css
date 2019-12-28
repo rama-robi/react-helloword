@@ -40,3 +40,7 @@ ul {
   .active {
     background-color: gray;
   }
+
+  .hero-image {
+    background-image: url(./bg-34.jpg);
+  }
